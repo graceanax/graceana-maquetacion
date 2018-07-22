@@ -1,0 +1,60 @@
+/* # reset */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+html, body, h1, h2, h3, h4, h5, h6, ul, li, figure {
+  margin: 0;
+  padding: 0;
+}
+figure img {
+  width: 100%;
+  height: 100%;
+}
+a, a:hover {
+  text-decoration: none;
+}
+body {
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+nav ul {
+  list-style: none;
+}
+/* # Theme */
+.t-white { color: #ffffff; }
+.t-black { color: #000000; }
+.t-gray { color: #565656; }
+.t-pink { color: #9A1750; }
+
+.b-white { background-color: #ffffff; }
+.b-black { background-color: #000000; }
+.b-gray { background-color: #E6E6E8; }
+.b-pink { background-color: #9A1750; }
+
+.t-center { text-align: center; }
+.e-center { 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.j-center {
+  justify-content: center;
+}
+.j-end {
+  justify-content: flex-end;
+}
+.a-center {
+  align-items: center;
+}
+.full-width {
+  width: 100%;
+}
+
+.border-none {
+  border: none;
+}
+
+.title {
+  font-family: 'Dosis', sans-serif;
+}
+/* # Components */
